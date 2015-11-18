@@ -1,0 +1,173 @@
+body {
+	height: 100%;
+	background-color: green;
+}
+
+header {
+	margin-top: -8px;
+	margin-left: -10px;
+	padding: 10px;
+	background-color: darkgrey;
+	width: 100%;
+}
+
+#main-logo,
+#main-nav,
+#main-nav li {
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#main-logo,
+#main-nav li {
+	border-radius: 5px;
+	list-style-type: none;
+}
+
+#main-logo {
+	background-color: forestgreen;
+	margin-right: 30px;
+}
+
+#main-nav li {
+	background-color: gold;
+	margin-right: 10px;
+}
+
+#main-logo a,
+#main-nav li a {
+	text-decoration: none;
+	text-align: center;
+}
+
+#main-logo a {
+	padding: 10px 20px;
+	color: gold;
+}
+
+#main-nav li a {
+	color: forestgreen;
+	padding: 20px 40px;
+}
+
+.container {
+	display: inline-block;
+	width: 100%;
+	min-height: 550px;
+}
+
+#left-header {
+	width:40%;
+	color: black;
+	margin-left: 3%;
+	display: inline-block;
+}
+
+#right-header {
+	width:40%;
+	color: black;
+	padding: 0px;
+	margin-left: 10%;
+	display: inline-block;
+}
+
+
+.left-panel {
+	border: 2px solid black;
+	width: 40%;
+	min-height: 350px;
+	max-height: 350px;
+	display: inline-block;
+	margin-left: 3%;
+	background-color: gold;
+	vertical-align: top;
+	overflow: scroll;
+}
+
+.left-panel p {
+	font-size: 1.5em;
+	margin: 2px;
+}
+
+.food-source li {
+	border-radius: 5px;
+	list-style-type: none;
+	margin: 4px;
+	padding: 5px;
+	background-color: darkgrey;
+	width: 35%;
+	border: 1px solid black;
+}
+
+.food-source li:hover {
+	background-color: green;
+}
+
+.right-panel {
+	border: 2px solid black;
+	width: 40%;
+	min-height: 350px;
+	max-height: 350px;
+	display: inline-block;
+	margin-left:10%;
+	background-color: gold;
+	vertical-align: top;
+	overflow: scroll;
+
+}
+
+
+.current-day {
+	width: 40%;
+	margin-left: 2.5%;
+}
+
+.active {
+	background-color: green !important;
+}
+
+.right-panel p {
+	text-align: center;
+}
+
+
+
+/*Media Queries
+/////////////////////////////////////
+*/
+
+@media (max-width: 700px) {
+	#main-logo,
+	#main-nav,
+	#main-nav li {
+		display:block;
+		width: initial;
+		margin: initial;
+	}
+	#main-nav {
+		padding-left: initial;
+	}
+	#main-nav li {
+		margin-top: 15px;
+	}
+	.food-source li {
+		width: 50%;
+	}
+	.right-panel p {
+		width: 85%;
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
