@@ -39,6 +39,8 @@ header {
 #main-nav li a {
 	text-decoration: none;
 	text-align: center;
+	font-family: times;
+	font-weight: bold;
 }
 
 #main-logo a {
@@ -129,7 +131,46 @@ header {
 
 .right-panel p {
 	text-align: center;
+} 
+
+/*Center panel on tab pages
+////////////////////////////
+*/
+
+.center-panel {
+	border: 2px solid black;
+	width: 60%;
+	min-height: 350px;
+	max-height: 350px;
+	background-color: darkgrey;
+	margin-top: 40px;
+	margin-right:20%;
+	margin-left: 20%;
+	text-align: center;
 }
+
+/* Motivation Links
+/////////////////////////////
+*/
+
+
+#motivation-link li {
+	color: green;
+	background-color: gold;
+	width: 40%;
+	font-size: 1.1em;
+	margin-top: 10px;
+}
+
+#motivation-link li a {
+	color: green;
+}
+
+#motivation-link li a:hover {
+	color: white;
+}
+
+
 
 
 
@@ -141,7 +182,7 @@ header {
 	#main-logo,
 	#main-nav,
 	#main-nav li {
-		display:block;
+		display: block;
 		width: initial;
 		margin: initial;
 	}
@@ -149,7 +190,7 @@ header {
 		padding-left: initial;
 	}
 	#main-nav li {
-		margin-top: 15px;
+		margin-top: 10px;
 	}
 	.food-source li {
 		width: 50%;
